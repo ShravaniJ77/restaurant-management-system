@@ -11,7 +11,8 @@ RUN { \
 
 COPY . /var/www/html/
 
-RUN chown -R www-data:www-data /var/www/html/uploads /var/www/html/logs \
+RUN mkdir -p /var/www/html/uploads /var/www/html/logs \
+    && chown -R www-data:www-data /var/www/html/uploads /var/www/html/logs \
     && chmod -R 755 /var/www/html/uploads /var/www/html/logs
 
 # Railway/Render inject the port to listen on via $PORT; Apache's default
