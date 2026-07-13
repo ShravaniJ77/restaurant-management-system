@@ -1,0 +1,7 @@
+.git
+.gitignore
+logs/*
+!logs/.gitkeep
+docs/
+tests/
+CONTRIBUTING.md
