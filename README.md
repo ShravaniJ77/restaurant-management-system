@@ -84,7 +84,7 @@ The database is designed with proper relationships to ensure data consistency an
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshots/dashboard.png)
 ![Dashboard](screenshots/dashboard2.png)
 ![Dashboard](screenshots/dashboard3.png)
 ![Dashboard](screenshots/dashboard4.png)
